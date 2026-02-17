@@ -1,81 +1,79 @@
-# 🏦 NPS DigiOnboard
-### Seamless Digital NPS Onboarding & Simplified KYC
+# 🏆 PFRDA Innovate4NPS Hackathon 2026
+### Team Submissions — All 4 Problem Statements
 
-> **PFRDA Innovate4NPS Hackathon 2026** | Problem Statement 1  
-> Organized by PFRDA + SIIC IIT Kanpur
-
----
-
-## 👥 Team
-| Name | Role |
-|------|------|
-| Aman Kumar | Team Lead & Full Stack Developer |
-| Rausheen Hasan | UI/UX Designer, Python Developer & Research Analyst |
+> Organized by **PFRDA + SIIC IIT Kanpur**  
+> Platform: **APIX Platform**  
+> Hashtags: #NPSZaruriHai | #Innovate4NPS | #PFRDA2026
 
 ---
 
-## 📌 Problem Statement
-Current NPS onboarding requires physical document submission, manual KYC verification, and multiple visits to PoP offices — taking 3-7 days and causing massive drop-offs among potential subscribers.
+## 👥 Team Members
+
+| Name | Role | Skills |
+|------|------|--------|
+| **Aman Kumar** | Team Lead & Full Stack Developer | React.js, Flutter, Node.js, Python |
+| **Rausheen Hasan** | UI/UX Designer & Research Analyst | Figma, Python, Research & Analysis |
 
 ---
 
-## 💡 Our Solution
-**NPS DigiOnboard** is a centralized, end-to-end digital onboarding platform that completes the entire NPS registration journey — from signup to PRAN generation — in under 10 minutes.
+## 📁 Our Submissions
+
+| # | Problem Statement | Solution Name | File |
+|---|------------------|---------------|------|
+| PS-1 | Seamless Digital NPS Onboarding & KYC | 🏦 NPS DigiOnboard | [View →](./PS1_KYC_Onboarding.md) |
+| PS-2 | Gamified Pension Awareness Platform | 🎮 PensionQuest | [View →](./PS2_Gamified_Platform.md) |
+| PS-3 | Retirement Corpus & Pension Forecasting | 📊 NPS FutureCalc | [View →](./PS3_Retirement_Calculator.md) |
+| PS-4 | AI-Powered Multilingual NPS Assistant | 🤖 NPS Saathi | [View →](./PS4_AI_Assistant.md) |
 
 ---
 
-## ✨ Key Features
-- 🔐 Aadhaar OTP-based eKYC with DigiLocker integration
-- 📱 Mobile-first React.js PWA — works on any smartphone
-- 🌐 Multilingual UI in 6 languages (Hindi, English, Tamil, Telugu, Marathi, Bengali)
-- 🔗 Integration-ready REST APIs for CRAs, PFs, and PoPs
-- ✅ DPDP Act 2023 compliant consent management
-- 📲 PRAN generation status tracker with real-time notifications
-- ✍️ Digital signature + e-NACH setup for contribution automation
+## 🚀 Quick Overview
+
+### 🏦 PS-1: NPS DigiOnboard
+Centralized digital onboarding platform completing NPS registration in **under 10 minutes** via Aadhaar OTP eKYC — replacing the current 3-7 day manual process. Supports 6 regional languages and integrates CRA + PF + PoP under one unified API gateway.
+
+### 🎮 PS-2: PensionQuest
+India's first gamified NPS awareness platform for young workers (18-35 yrs). Uses XP points, badges, daily challenges, and leaderboards to make pension planning as engaging as a mobile game — available in 8 regional languages.
+
+### 📊 PS-3: NPS FutureCalc
+Real-time retirement corpus calculator with reverse goal planning, 3-scenario comparison, and inflation-adjusted projections. Built with React.js + Python actuarial engine — recalculates instantly on every slider move.
+
+### 🤖 PS-4: NPS Saathi
+AI-powered multilingual chatbot supporting 10+ regional languages with voice input. RAG-based NLP ensures 100% accurate, hallucination-free responses grounded in official PFRDA documentation — available 24/7.
 
 ---
 
-## 🛠️ Tech Stack
-| Layer | Technology |
-|-------|-----------|
-| Frontend | React.js + Tailwind CSS (PWA) |
-| Mobile | Flutter |
-| Backend | Node.js + Express / Python FastAPI |
-| KYC | Aadhaar OTP Mock API + DigiLocker Sandbox |
-| Database | PostgreSQL (encrypted at rest) |
-| Security | JWT + OAuth2 + AES-256 |
-| Deployment | Docker + APIX Platform |
+## 🛠️ Combined Tech Stack
 
----
-
-## 🔄 Onboarding Flow
 ```
-Step 1 → Select Language + Mobile OTP Verification
-Step 2 → Aadhaar OTP eKYC → Auto-fill Personal Details
-Step 3 → Nominee Details + Investment Preference
-Step 4 → Digital Consent + e-Sign Agreement
-Step 5 → PRAN Generated + e-NACH Setup + Welcome Kit
+Frontend    →  React.js + Flutter (Mobile)
+Backend     →  Node.js + Python FastAPI
+AI/NLP      →  Gemini API + RAG Pipeline
+Design      →  Figma
+Database    →  PostgreSQL + Redis
+Deployment  →  Docker + APIX Platform
 ```
 
 ---
 
-## 🎯 Expected Impact
-- ⏱️ Onboarding time: 3-7 days → under 10 minutes
-- 📉 KYC rejection rate reduced by 80%
-- 📉 Drop-off rate reduced by 60%
-- 🌍 200M+ rural users included via multilingual support
-- 📄 100% paperless, zero physical document submission
+## 📊 Expected Impact Summary
+
+| Solution | Key Impact |
+|----------|-----------|
+| NPS DigiOnboard | Onboarding time 3-7 days → under 10 minutes |
+| PensionQuest | 40%+ young users start NPS enrollment after engagement |
+| NPS FutureCalc | 85%+ users gain retirement contribution clarity |
+| NPS Saathi | 80%+ NPS queries resolved automatically in user's language |
 
 ---
 
 ## 📁 Project Status
-> 🚧 Currently in Idea Stage — Prototype to be built on APIX Platform post shortlisting
+> 🚧 All solutions currently in **Idea Stage**  
+> ✅ Prototypes to be built on **APIX Platform** post shortlisting  
+> 🏛️ Team willing to present at **IIT Kanpur** for final round
 
 ---
 
-## 📬 Contact
-- Aman Kumar — Team Lead
-- Rausheen Hasan — UI/UX & Research
-
-*Submitted for PFRDA Innovate4NPS Hackathon 2026*  
+*Submitted by Aman Kumar & Rausheen Hasan*  
+*PFRDA Innovate4NPS Hackathon 2026*  
 *#NPSZaruriHai | #Innovate4NPS | #PFRDA2026*
